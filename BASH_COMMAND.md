@@ -3,3 +3,6 @@
 
 ### mysql database structure dump
 `mysqldump -u username -h ip_address -ppassword -d -R --trigger schema > yyyymmdd.schema.structure`  
+
+### mysql database dump
+`mysqldump -u username -h ip_address -ppassword schema > yyyymmdd.schema.sql`  
