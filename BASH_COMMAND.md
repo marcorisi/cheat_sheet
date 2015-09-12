@@ -6,3 +6,9 @@
 
 ### mysql database dump
 `mysqldump -u username -h ip_address -ppassword schema > yyyymmdd.schema.sql`  
+
+### copy the file `foo.bar` from a remote host to localhost
+`scp user@host:/remote/directory/foo.bar /local/directory`
+
+### copy the file `foo.bar` from localhost to a remote host
+`scp foo.bar user@host:/remote/directory`
