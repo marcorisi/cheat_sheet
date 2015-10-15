@@ -13,5 +13,5 @@
 ### copy the file `foo.bar` from localhost to a remote host
 `$ scp foo.bar user@host:/remote/directory`
 
-### Compress some file in a `.tar.gz`
+### compress some files in a `.tar.gz`
 `$ tar -zcvf filename.tar.gz *.pdf`
