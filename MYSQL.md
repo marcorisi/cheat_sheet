@@ -9,6 +9,14 @@ SET a.column_c = a.column_c + 1
 - Add an index to a table  
 `ALTER TABLE $table ADD INDEX $index_id ($column_name)`
 
+- Cast a string to a number  
+```
+SELECT 
+	CONVERT(string_column, SIGNED|UNSIGNED INTEGER) as int_column
+FROM
+    table
+```
+
 - Show list of table indexes  
 `SHOW INDEXES FROM $table`
 
