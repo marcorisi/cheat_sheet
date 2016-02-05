@@ -15,3 +15,6 @@
 
 ### compress some files in a `.tar.gz`
 `$ tar -zcvf filename.tar.gz *.pdf`
+
+### diagnose network issues
+`$ mtr hostname`
