@@ -5,4 +5,5 @@ Collection of commands and notes for quick reference
 - [BASH command](BASH_COMMAND.md)
 - [MySQL](MYSQL.md)
 - [PHP](PHP.md)
+- [Git](GIT.md)
 - [Apache](APACHE.md)
