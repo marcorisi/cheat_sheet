@@ -22,3 +22,6 @@ FROM
 
 - Explain a query  
 `EXPLAIN $query`
+
+- Adding some leading zero to a field (zerofill like)  
+`SELECT LPAD('9', 2, '0')`
