@@ -25,3 +25,8 @@ FROM
 
 - Adding some leading zero to a field (zerofill like)  
 `SELECT LPAD('9', 2, '0')`
+
+- Specify a composite unique constraint  
+```
+ALTER TABLE `table_name` ADD UNIQUE `uq_table_name_1_idx`(`column_1`, `column_2`)
+```
