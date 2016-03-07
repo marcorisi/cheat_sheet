@@ -30,3 +30,8 @@ FROM
 ```
 ALTER TABLE `table_name` ADD UNIQUE `uq_table_name_1_idx`(`column_1`, `column_2`)
 ```
+
+- Load data from CSV file  
+```
+LOAD DATA LOCAL INFILE '/path/to/file.csv' INTO TABLE db.table FIELDS TERMINATED BY ';' LINES TERMINATED BY '\n';
+```
