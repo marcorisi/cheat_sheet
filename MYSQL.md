@@ -43,7 +43,5 @@ SHOW ENGINE INNODB STATUS \G
 
 - List of locked tables
 ```
-List of locked tables:
-
 SHOW OPEN TABLES WHERE IN_USE > 0
 ```
