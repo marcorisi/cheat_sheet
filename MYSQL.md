@@ -35,3 +35,15 @@ ALTER TABLE `table_name` ADD UNIQUE `uq_table_name_1_idx`(`column_1`, `column_2`
 ```
 LOAD DATA LOCAL INFILE '/path/to/file.csv' INTO TABLE db.table FIELDS TERMINATED BY ';' LINES TERMINATED BY '\n';
 ```
+
+- Show status of innodb engine
+```
+SHOW ENGINE INNODB STATUS \G
+```
+
+- List of locked tables
+```
+List of locked tables:
+
+SHOW OPEN TABLES WHERE IN_USE > 0
+```
