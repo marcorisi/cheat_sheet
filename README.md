@@ -7,3 +7,4 @@ Collection of commands and notes for quick reference
 - [PHP](PHP.md)
 - [Git](GIT.md)
 - [Apache](APACHE.md)
+- [Redis](REDIS.md)
