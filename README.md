@@ -8,3 +8,4 @@ Collection of commands and notes for quick reference
 - [Git](GIT.md)
 - [Apache](APACHE.md)
 - [Redis](REDIS.md)
+- [Javascript](Javascript.md)
