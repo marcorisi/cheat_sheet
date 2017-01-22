@@ -4,6 +4,9 @@
 ### mysql database structure dump
 `$ mysqldump -u username -h ip_address -ppassword -d -R --trigger schema > yyyymmdd.schema.structure`  
 
+### check relevant differences between two mysql structure dump
+`$ diff dump1.structure dump2.structure | grep -v AUTO_INCREMENT | grep -v 'Dump completed' | grep -v 'Host:' | grep -v '\-\-\-'`
+
 ### mysql database dump
 `$ mysqldump -u username -h ip_address -ppassword schema > yyyymmdd.schema.sql`  
 
