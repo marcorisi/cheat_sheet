@@ -24,3 +24,6 @@
 
 ### diagnose network issues
 `$ mtr hostname`
+
+### redirect output to stdout and a file
+`$ cmd | tee output_file`
