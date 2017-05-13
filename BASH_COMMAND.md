@@ -27,3 +27,6 @@
 
 ### redirect output to stdout and a file
 `$ cmd | tee output_file`
+
+### validate a php file against PSR2 rules with php cs prefixer
+`php-cs-fixer fix filename.php --rules=@PSR2 [--verbose] [--dry-run]`
