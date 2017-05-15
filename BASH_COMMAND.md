@@ -30,3 +30,6 @@
 
 ### validate a php file against PSR2 rules with php cs prefixer
 `php-cs-fixer fix filename.php --rules=@PSR2 [--verbose] [--dry-run] [--diff]`
+
+### enable or disable xdebug via console
+`sudo php5enmod|php5dismod xdebug`
