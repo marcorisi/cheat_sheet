@@ -12,7 +12,7 @@ SET a.column_c = a.column_c + 1
 - Cast a string to a number  
 ```
 SELECT 
-	CONVERT(string_column, SIGNED|UNSIGNED INTEGER) as int_column
+    CONVERT(string_column, SIGNED|UNSIGNED INTEGER) as int_column
 FROM
     table
 ```
